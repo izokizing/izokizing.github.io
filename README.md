@@ -27,12 +27,12 @@
     </style>
 </head>
 <body>
-    <h1>Welcome! I'm [izokizing]</h1>
+    <h1>Welcome! I'm izokizing</h1>
 
     <div class="section">
         <h2>About Me</h2>
         <p>I'm a student currently learning [programing].
-           I'm interested in [cyber security].</p>
+           I'm interested in cyber security.</p>
     </div>
 
     <div class="section">
@@ -46,7 +46,7 @@
     <div class="section">
         <h2>Links</h2>
         <ul>
-            <li><a href="https://github.com/your-username">My GitHub Profile</a></li>
+            <li><a href="https://github.com/your-izokizing">My GitHub Profile</a></li>
         </ul>
     </div>
 </body>
