@@ -31,7 +31,7 @@
 
     <div class="section">
         <h2>About Me</h2>
-        <p>I'm a student currently learning [programing].
+        <p>I'm a student currently learning programing.
            I'm interested in cyber security.</p>
     </div>
 
