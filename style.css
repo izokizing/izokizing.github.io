@@ -1,0 +1,146 @@
+@import url(https://fonts.google.com/share?selection.family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900|Raleway:ital,wght@0,100..900;1,100..900|Roboto+Condensed:ital,wght@0,100..900;1,100..900);
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+body {
+    colour: #ffff;
+    background-color: #0eebd8;
+    background-image:radial-gradient(at 50% 50%, hsla(0, 0%, 100%, 0.15) 0, transparent 100%), radial-gradient(at 50% 50%, hsla(0, 0%, 100%, 0.15) 0, transparent 100%), radial-gradient(at 50% 50%, hsla(0, 0%, 100%, 0.15) 0, transparent 100%), radial-gradient(at 50% 50%, hsla(0, 0%, 100%, 0.15) 0, transparent 100%);    
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.glass-container {
+    display: block;
+    max-width: 72vw;
+    margin-top: 10vh;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+
+}
+
+.logo {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+ul.nav-links {
+    margin: 0;
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+li.nav-link {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+.main {
+    margin-top: 10vh;
+    display: flex;
+    padding: 20px;
+    
+}
+
+.main h1 {
+    font-size: 32px;
+
+}
+
+.main p {
+    font-size: 16px;
+    line-height: 23px;
+
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    color:darkmagenta;
+    background-color: transparent;
+    border: 1px solid darkmagenta;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(250, 57, 176);
+    border-color: rgb(235, 220, 229);
+}
+
+image-wrapper {
+    display: flex;
+    margin-top: 5vh;
+    position: relative;
+}
+
+image-wrapper img {
+    max-width: 500px;
+}
+
+.attribute{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    font-size: 12px;
+}
+
+@media  screen and (max-width: 1070px) {
+    content {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 720px) {
+    .logo {
+        font-size: 22px;
+    }
+
+    li.nav-link {
+        font-size: 13px;
+    }
+
+    .main h1{
+        font-size: 28px;
+    }
+
+    .main p {
+        font-size: 15px;
+    }
+    button {
+        font-size: 13px;
+    }
+    image-wrapper img {
+        max-width: 400px;
+    }
+}
